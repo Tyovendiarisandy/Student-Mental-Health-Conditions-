@@ -17,7 +17,7 @@ def main():
     load_image = Image.open('./image.png')
     st.image(load_image)
     st.title('The Student Mental Health Conditions Prediction')
-    st.subheader('please input in the option box that is there!')
+    st.subheader('Please input in the option box below!')
 
     # choose menu input - Selectbox
     # st.sidebar.subheader('Select Your Input')
