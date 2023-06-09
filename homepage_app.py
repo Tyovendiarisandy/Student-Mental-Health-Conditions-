@@ -7,7 +7,7 @@ import pickle
 from PIL import Image
 
 # load dataset
-df = pd.read_csv('clean_dataset.csv')
+df = pd.read_csv('new_clean_dataset.csv')
 
 # load model
 model = pickle.load(open('random_forest_fix_tuned.pkl','rb'))
